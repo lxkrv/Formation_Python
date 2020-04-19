@@ -9,7 +9,8 @@ time.sleep(0.5)
 import pygame
 pygame.init()
 window_resolution = [1000, 1000]
-blanck_color  = (255,255,255)
+blanck_color  = (255, 255, 255)
+black_color = (0, 0 ,0)
 
 pygame.display.set_caption("Python #37")
 window_surface = pygame.display.set_mode(window_resolution)
